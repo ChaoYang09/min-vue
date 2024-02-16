@@ -1,0 +1,28 @@
+{
+  "name": "mini-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/guide-mini-vue/cjs.js",
+  "module": "lib/guide-mini-vue/esm.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "rollup": "^4.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-typescript": "^7.23.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "babel-jest": "^29.7.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`codegen element and interpolation 1`] = `
+"import{toDisplayString as _toDisplayString, createElementVnode as _createElementVnode} from 'Vue'
+export function render(_ctx, _cache){return _createElementVnode('div', null, 'hi,' + _toDisplayString(_ctx.msg))}"
+`;
+
+exports[`codegen string 1`] = `
+"import{toDisplayString as _toDisplayString} from 'Vue'
+export function render(_ctx, _cache){return _toDisplayString(_ctx.hello)}"
